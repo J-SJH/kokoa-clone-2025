@@ -1,0 +1,37 @@
+.settings__setting {
+    padding: 25px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.02);
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings__setting i, .settings__change-column i {
+    opacity: 0.8;
+    margin-right: 23px;
+    font-size: 22px;
+}
+
+.settings__setting:last-child {
+    border-bottom: var(--main-border);
+}
+
+.settings__setting-version {
+    opacity: 0.7;
+    font-size: 21px;
+}
+
+.settings__change {
+    margin-top: 25px;
+    height: 17px;
+    padding: 15px 0px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings__change-theme {
+    opacity: 0.7;
+}
